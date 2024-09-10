@@ -5,10 +5,11 @@ int main()
 {
     setlocale(LC_ALL, "Russian");
     
-    int arr[8] = { 94, 67, 18, 44, 55, 12, 6, 42 };
+    int arr[] = { 94, 67, 18, 44, 55, 12, 6, 42 };
+    int arrSize = std::size(arr);
 
-    PrintArray(arr, 8);
-    PrintPyramid(arr, 8);
+    PrintArray(arr, arrSize);
+    PrintPyramid(arr, arrSize);
 
       
 }
